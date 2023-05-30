@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"
+        >
+
+        <!-- Customize your theme here. -->
+        <item name ="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+    <style name="ImageRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar_selector</item>
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+    </style>
+    <style name="Widget.AppCompat.SeekBar" parent="Base.Widget.AppCompat.SeekBar.Discrete">
+
+    </style>
+    <style name="Widget.AppCompat.RatingBar.Indicator." parent="Base.Widget.AppCompat.RatingBar.Small"></style>
+
+</resources>
